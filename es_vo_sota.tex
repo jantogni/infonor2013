@@ -1,0 +1,67 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[spanish, activeacute]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+
+\usepackage{color}
+\newcommand{\todo}{\textcolor{red}{TO DO:}\textcolor{blue}}
+
+\title{Primeros pasos del Observatorio Virtual Chileno}
+\author{
+\IEEEauthorblockN{
+	Mauricio Solar \IEEEauthorrefmark{1}, Jonathan Antognini \IEEEauthorrefmark{1}, Marcelo Mendoza \IEEEauthorrefmark{1}, Jose Marroquín \IEEEauthorrefmark{1}, Cristián Maureira \IEEEauthorrefmark{1} \\
+	Jorge Ibsen \IEEEauthorrefmark{2}, Lars Nyman \IEEEauthorrefmark{2}, 
+	Eduardo Vera \IEEEauthorrefmark{3}, Diego Mardones \IEEEauthorrefmark{3}, Guillermo Cabrera \IEEEauthorrefmark{3},\\
+	Paola Arellano \IEEEauthorrefmark{4},
+	Karim Pichara \IEEEauthorrefmark{5}, Nelson Padilla \IEEEauthorrefmark{5},
+	Ricardo Contreras \IEEEauthorrefmark{6}, \\ Neil Nagar \IEEEauthorrefmark{6},
+	Victor Parada \IEEEauthorrefmark{7}.
+}
+
+\\
+
+\IEEEauthorblockA{\IEEEauthorrefmark{1} Universidad Técnica Federico Santa María, Valparaiso, Chile}
+\IEEEauthorblockA{\IEEEauthorrefmark{2} Atacama Large Millimeter/submillimeter Array, San Pedro de Atacama, Chile}		
+\IEEEauthorblockA{\IEEEauthorrefmark{3} Universidad de Chile, Santiago, Chile}							
+\IEEEauthorblockA{\IEEEauthorrefmark{4} Red Universitaria Nacional, Santiago, Chile}						
+\IEEEauthorblockA{\IEEEauthorrefmark{5} Universidad Católica de Chile, Santiago, Chile}					
+\IEEEauthorblockA{\IEEEauthorrefmark{6} Universidad de Concepción, Concepción, Chile}					
+\IEEEauthorblockA{\IEEEauthorrefmark{7} Universidad de Santiago de Chile, Santiago, Chile}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este documento muestra la distribución de observatorios virtuales a lo largo del
+mundo, y como sería la distribución ante la eventual inclusión de Chile.
+Por otro lado se presenta el concepto Observatorio Virtual, las necesidades
+por las cuales surge este propósito, y los protocolos y estándares que desarrollan en
+conjunto. Además se mostrará la arquitectura por niveles y capas que componen
+una plataforma de este tipo y los primeros pasos de Chilean Virtual Observatory.
+\end{abstract}
+
+\begin{IEEEkeywords}
+	IVOA, Chivo, Virtual Observatory.
+\end{IEEEkeywords}
+
+\input{include/introduccion}
+\input{include/distribucion_vo}
+%\input{include/lista_vo}
+\input{include/concepto_vo}
+\input{include/arquitectura_vo}
+\input{include/primeros_pasos_vo}
+\input{include/conclusiones}
+
+\section{Referencias}
+\bibliographystyle{plain}
+\bibliography{es_vo_sota}
+
+\end{document}

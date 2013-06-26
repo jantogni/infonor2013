@@ -1,0 +1,90 @@
+\section{Primeros pasos del Chilean Virtual Observatory}
+
+En el Chilean Virtual Observatory (ChiVO), se han generado instancias y colaboraciones
+para llevar a cabo este ambicioso proyecto. En estas, se han clarificado las
+posibles limitaciones y necesidades que tendrá la comunidad astronómica en
+el mediano plazo con las cuales se han planteado objetivos del sistema. Esta
+sección abordará los objetivos del sistema y la iniciativa que está desarrollando ChiVO.
+
+\subsection{Objetivos del sistema}
+
+Los volúmenes de datos a gran escala que generan y generarán los observatorios
+astronómicos actuales y futuros en Chile, han suscitado nuevas necesidades que
+permiten el desarrollo de nuevas herramientas y técnicas de análisis de datos.
+
+Para tener una idea general de la cantidad de datos que requerirán ser
+clasificados y procesados, se puede tomar en cuenta el proyecto ALMA,
+inaugurado en marzo del 2013, en el cual se estima que serán generados más de 1
+TB de datos diarios en su máxima capacidad operativa.
+%en el cual cuando se encuentre completamente operativo
+%(con todo su conjunto de antenas), se generarán más de 1 TB de datos por día de
+%observación.
+
+La manipulación de altos volúmenes de datos generan complicaciones en diversos
+aspectos:
+%\begin{itemize}
+	%\item Almacenamiento, es necesario tener un centro de procesamiento de datos con
+	\textbf{Almacenamiento}, es necesario tener un centro de procesamiento de datos con
+		la capacidad de almacenamiento suficiente y acorde a las necesidades de consumo
+		de dichos datos, sin dejar de lado el espacio físico que dichos equipos
+		necesitarán y la arquitectura detrás del almacenamiento en sí. \\
+	\textbf{Acceso}, se deben establecer mecánicas y normativas de accesos para
+		cualquier persona, ya sean astrónomos o no, lo cual requiere de un sistema que
+                permita acceder a él desde cualquier lugar. En este proyecto
+		se ha decidido por sistema web, ya que es un mecanismo adecuado para suplir la
+                presente necesidad. \\
+	\textbf{Procesamiento}, el procesamiento de datos es un área particular de la
+		informática, la cual conlleva a entender tanto la naturaleza como la estructura
+		de los datos como también las herramientas y técnicas que se pueden utilizar
+		para llevarlo a cabo. Al tener grandes volúmenes de datos, el procesamiento a
+		realizar, ya sean correcciones, calibraciones, análisis, etc., exigen más tiempo
+		del habitual y por supuesto que más recursos computacionales, elementos que un
+		usuario no posee. Es por lo anterior que un cluster computacional puede ser una
+		herramienta útil para realizar esta labor. \\
+                %Por lo que un cluster computacional, puede ser una herramienta útil para
+                %facilitar esta labor.
+%\end{itemize}
+
+Los anteriormente detallado pertenece a las motivaciones principales
+por las cuales actualmente en Chile se está desarrollando un proyecto que
+busca crear una plataforma de procesamiento de datos de gran escala, el cual
+compromete como uno de sus entregables un Observatorio Virtual del que se
+espera que garantice rapidez y eficiencia tanto al acceso de información
+existente y servicios astronómicos como en el análisis de dicha información.
+
+\subsection{Iniciativa que lo desarrolla}
+Actualmente se está desarrollando el proyecto titulado ``Desarrollo de una
+plataforma astroinformática para la administración y análisis de datos de gran
+escala'', financiado con fondos gubernamentales (FONDEF D11I1060) con duración
+de 28 meses en el cual participan las siguientes instituciones:
+\begin{itemize}
+	\item Atacama Large Milimeter/submilimeter Array
+	\item Consorcio Red Universitaria Nacional (Reuna)
+	\item Universidad Técnica Federico Santa María
+	\item Universidad de Chile
+	\item Universidad Católica de Chile
+	\item Universidad de Concepción
+	\item Universidad de Santiago de Chile
+\end{itemize}
+
+Los objetivos del proyecto están relacionados con el diseño e implementación de
+un observatorio virtual, el cual deberá cumplir con los estándares de IVOA.
+Además, los astrónomos investigadores de este, crearán instancias donde
+presentarán problemáticas que enfrentan como comunidad ante el procesamiento de
+datos que serán resueltos mediante técnicas computacionales conocidas por los
+investigadores del área de computación.
+
+El presente proyecto se realiza en estrecha colaboración con ALMA, quienes
+aportan su visión desde el punto de vista de observatorio, comparten
+conocimiento respecto a los modelos y tipos de datos que se usan, y además se
+establecerán políticas de colaboración para facilitar el acceso a los datos.
+
+Por otro lado, el Consorcio Red Universitaria Nacional Reuna (REUNA) y el
+National Laboratory for High Performance Computing (NLHPC) juegan un rol
+importante, ya que una de las problemáticas a resolver es la conectividad de
+altas tasas de transmisión de datos (REUNA) y el almacenamiento de datos que
+exigen grandes capacidades para ello (NLHPC).
+
+En conjunto estas instituciones unen esfuerzos para lograr crear y establecer
+en el tiempo una plataforma sin precedente en el área astroinformática Chilena,
+el Chilean Virtual Observatory\footnote{ChiVO \url{http://www.chivo.cl/}}.
